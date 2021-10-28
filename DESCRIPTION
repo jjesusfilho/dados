@@ -1,10 +1,10 @@
 Package: dados
-Title: What the Package Does (One Line, Title Case)
+Title: Gera Dados Fictícios ou Obtêm Dados Reais para Cursos 
 Version: 0.0.0.9000
 Authors@R: 
     person("Jose", "de Jesus Filho", , "jose@consudata.com.br", role = c("aut", "cre"),
            comment = c(ORCID = "https://orcid.org/0000-0001-7415-7383"))
-Description: What the package does (one paragraph).
+Description: Gera dados fictícios ou obtêm dados para trabalhos em cursos.
 License: MIT + file LICENSE
 Suggests: 
     testthat (>= 3.0.0)
@@ -13,3 +13,9 @@ Encoding: UTF-8
 Language: pt_BR
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Imports: 
+    jsonlite,
+    httr,
+    tibble,
+    purrr,
+    xml2
